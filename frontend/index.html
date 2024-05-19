@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/styles/tailwind.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Members App</title>
+  </head>
+  <body> 
+    <header>
+    <nav class="flex items-center justify-between flex-wrap bg-lime-600 rounded p-6 fixed w-full z-10 top-0">
+      <div class="flex items-center flex-shrink-0 text-white mr-6">
+        <a class="text-white no-underline hover:text-white hover:no-underline" href="#">
+          <span class="text-2xl pl-2"><i class="em em-grinning"></i>Coffee CO-operatives</span>
+        </a>
+      </div>
+  
+      <div class="block lg:hidden">
+        <button id="nav-toggle" class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-white hover:border-white">
+          <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+        </button>
+      </div>
+  
+      <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block pt-6 lg:pt-0" id="nav-content">
+        <ul class="list-reset lg:flex justify-end flex-1 items-center">
+          <li class="mr-3">
+            <a class="inline-block py-2 px-4 text-white no-underline" href="#">Home</a>
+          </li>
+          <li class="mr-3">
+            <a class="inline-block text-gray-600 no-underline hover:text-gray-200 hover:text-underline py-2 px-4" href="#">About</a>
+          </li>
+          <li class="mr-3">
+            <a class="inline-block text-gray-600 no-underline hover:text-gray-200 hover:text-underline py-2 px-4" href="#">Contact Us</a>
+          </li>
+          <li class="mr-3">
+            <a class="inline-block text-gray-600 no-underline hover:text-gray-200 hover:text-underline py-2 px-4" href="#">Products</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  
+    <!--Container-->
+    <div class="container shadow-lg mx-auto bg-white mt-24 md:mt-18">  
+    </div>
+  </header>
+    
+     
+    <div id="root" class="container mx-auto px-4 "></div>
+
+    <footer class="relative bg-blueGray-200 pt-8 pb-6">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap text-left lg:ext-left">
+          <div class="w-full lg:w-6/12 px-4">
+            <h4 class="text-3xl fonat-semibold text-blueGray-700">Let's keep in touch!</h4>
+            <h5 class="text-lg mt-0 mb-2 text-blueGray-600">
+              Find us on any of these platforms, we respond 1-2 business days.
+            </h5>
+            <div class="mt-6 lg:mb-0 mb-6">
+              <button class="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
+                <i class="fab fa-twitter"></i></button><button class="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
+                <i class="fab fa-facebook-square"></i></button><button class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
+                <i class="fab fa-dribbble"></i></button><button class="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
+                <i class="fab fa-github"></i>
+              </button>
+            </div>
+          </div>
+          <div class="w-full lg:w-6/12 px-4">
+            <div class="flex flex-wrap items-top mb-6">
+              <div class="w-full lg:w-4/12 px-4 ml-auto">
+                <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Useful Links</span>
+                <ul class="list-unstyled">
+                  <li>
+                    <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#">About Us</a>
+                  </li>
+                  <li>
+                    <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#">Blog</a>
+                  </li>
+                  <li>
+                    <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#">Github</a>
+                  </li>
+                  <li>
+                    <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#">Free Products</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="w-full lg:w-4/12 px-4">
+                <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Other Resources</span>
+                <ul class="list-unstyled">
+                  <li>
+                    <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#">MIT License</a>
+                  </li>
+                  <li>
+                    <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#">Terms &amp; Conditions</a>
+                  </li>
+                  <li>
+                    <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#">Privacy Policy</a>
+                  </li>
+                  <li>
+                    <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="my-6 border-blueGray-300">
+        <div class="flex flex-wrap items-center md:justify-between justify-center">
+          <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+            <div class="text-sm text-blueGray-500 font-semibold py-1">
+              Copyright © <span id="get-current-year">2024</span><a href="#" class="text-blueGray-500 hover:text-gray-800" target="_blank"> station1 by
+              <a href="#" class="text-blueGray-500 hover:text-blueGray-800">Dev01</a>.
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="/src/main.jsx"></script>
+    <script>
+      //Javascript to toggle the menu
+		document.getElementById('nav-toggle').onclick = function(){
+			document.getElementById("nav-content").classList.toggle("hidden");
+		}
+    </script>
+  </body>
+</html>
