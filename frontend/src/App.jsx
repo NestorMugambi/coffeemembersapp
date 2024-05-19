@@ -45,7 +45,7 @@ export default function App() {
       <div className="max-w-5xl max-h-80 bg-blueGray-200 rounded">
           <h2 className="text-3xl font-bold tracking-tight text-black sm:text-4xl">Coffee CO-Operatives Members App</h2>
           <p className="mt-6 text-lg leading-8 text-black">
-          Coffee cooperatives function as organized groups of farmers which process and market of their coffee beans. They consist primarily of small-scale farmers who meet specific criteria for membership, including land ownership and coffee production thresholds.
+          Coffee cooperatives function as organized groups of farmers which process and market their coffee beans. They consist primarily of small-scale farmers who meet specific criteria for membership, including land ownership etc.
           </p>
           <p className="mt-6 text-lg leading-8 text-black">
           They operate within a complex ecosystem where efficient data management, streamlined service delivery and transparent financial management are paramount.
