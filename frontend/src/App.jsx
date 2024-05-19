@@ -47,9 +47,7 @@ export default function App() {
           <p className="mt-6 text-lg leading-8 text-black">
           Coffee cooperatives function as organized groups of farmers which process and market their coffee beans. They consist primarily of small-scale farmers who meet specific criteria for membership, including land ownership etc.
           </p>
-          <p className="mt-6 text-lg leading-8 text-black">
-          They operate within a complex ecosystem where efficient data management, streamlined service delivery and transparent financial management are paramount.
-          </p>
+         
       </div>   
 
       <div className = " justify-center  max-w-7xl grid grid-cols-2 gap-6">
